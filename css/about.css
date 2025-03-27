@@ -1,0 +1,40 @@
+/* About Section*/
+
+.about-grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+   
+}
+
+.about img {
+    max-width:200px;
+    height: auto;
+}
+
+.closing {
+max-width: 600px;
+border: 2px solid #fff;
+border-radius: 20px;
+padding: 20px;
+margin: 30px auto;
+background-color:#353535;
+
+}
+
+.about-closing {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    text-align: center;
+}

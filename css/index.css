@@ -1,0 +1,125 @@
+  
+
+    
+/* Courses Section*/
+.course-grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #fff; 
+    
+}
+
+.course {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+   
+}
+
+.course img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.course button {
+    background: #2fddd0;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.course button:hover {
+    background: #FFD700;
+    color: #000;
+}
+
+/* Discover CTA*/
+.discover_cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.discover_cta button {
+    background: #2fddd0;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.discover_cta button:hover {
+    background: #FFD700;
+    color: #000;
+}
+
+
+/* Pricing Section*/
+    .pricing {
+        padding: 20px;
+        text-align: center;
+    }
+
+/* Table in Pricing Section*/
+    table {
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    th {
+        background: #333;
+        color:   #FFD700;
+    }
+
+    table ul {
+        text-align: left;
+    }
+
+    
+/* Testimonial Section*/
+    .testimonial {
+        text-align: center;
+        font-style: italic;
+        margin: 30px auto;
+        font-size: 1em;
+        max-width: 1000px;
+    }
+    .testimonial img {
+        max-width: 200px;
+        border-radius: 50%;
+        height: auto;
+        margin-right: 20px; 
+    }
+
+    .testimonial blockquote {
+        font-size: 1em;
+        font-style: italic;
+        color: #ffffff;
+        line-height: 1.6;
+        padding: 10px 20px;
+        border-top: 2px solid #ffcc00;
+        border-bottom: 2px solid #ffcc00;
+        overflow: hidden;
+    }
+
+  

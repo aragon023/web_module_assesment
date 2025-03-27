@@ -1,0 +1,97 @@
+  
+/* Courses Section */
+.courses-section {
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 20px; }
+
+
+.course-section-category {
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* Video Card */
+.video-card {
+    background: #2fddd0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+}
+
+.video-card video {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.video-card p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* DJ's Section*/
+.djs-grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    
+}
+
+.dj {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+   
+}
+
+.djs h2 {
+    text-align: center;
+    color:#fff;
+}
+.djs h3 {
+    text-align: center;
+    color: #FFD700;
+}
+.dj img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto; 
+    text-align: center;
+    padding: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
+

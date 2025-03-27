@@ -1,0 +1,44 @@
+
+/* Pricing Description */
+.pricing-description {
+    max-width: 600px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color:#353535;
+    
+    }
+
+/* Grid Layout */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 0 auto; 
+    max-width: 1600px;
+}
+
+/* Plan Styles */
+.plan {
+    background: #333;
+    padding: 30px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 2px solid #fff; 
+    text-align: center; 
+    
+}
+
+/* Plan Hover Effect */
+.plan:hover {
+    transform: translateY(-10px);
+}
+
+/* List Styles */
+.plan ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-left: 20px; 
+}
